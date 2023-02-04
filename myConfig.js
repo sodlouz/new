@@ -10,26 +10,47 @@ let MensajeAd =
 	"​🚨*Promociona lo que desees!*🚨 \n \n"*/
 
 let imagenAd =
-	"https://i.ibb.co/3117w4Z/png-clipart-parental-advisory-paper-sticker-decal-printing-others-miscellaneous-text.png"
+	"https://vilmanunez.com/wp-content/uploads/2018/10/poner-anuncios-publicitarios-gratis.png"
 
 const N_VIDEOS = 10 //MAX 10
 
 const MY_AD = {
-	isActive: true,
-	type: 2, // //defaultAd => 1 //captionAd => 2 //linksGroupAd => 3
+	isActive: false,
+	type: 3, // //defaultAd => 1 //captionAd => 2 //linksGroupAd => 3
 	data: {
 		ctn: MensajeAd,
 		image: imagenAd,
 		link: {
-			text: "LIVE HERE ❤",
+			text: "🚨 LIVE 🚨",
 			url: "https://sherrysex.fun",
 		},
 		linksGroupAd: [
 			[
 				{
-					text: "LIVE HERE ❤",
+					text: "🚨 LIVE 🚨",
 					url: "https://sherrysex.fun",
-				}
+				},
 			],
+			[
+				{
+					text: "🚨 LIVE 🚨",
+					url: "https://sherrysex.fun",
+				},
+			],
+			[
+				{
+					text: "🚨 LIVE 🚨",
+					url: "https://sherrysex.fun",
+				},
+			],
+			[
+				{
+					text: "🚨 LIVE 🚨",
+					url: "https://sherrysex.fun",
+				},
+			],
+		],
+	},
+}
 
 module.exports = { N_VIDEOS, MY_AD }
