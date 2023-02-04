@@ -30,6 +30,6 @@ const MY_AD = {
 					text: "LIVE HERE ❤",
 					url: "https://sherrysex.fun",
 				}
-			]
+			],
 
 module.exports = { N_VIDEOS, MY_AD }
